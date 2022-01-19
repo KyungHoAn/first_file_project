@@ -31,6 +31,7 @@ public class IntStackTester {
 					System.out.println("stack is empty");
 				}
 				break;
+				
 			case 3:
 				try {
 					x=s.peek();
