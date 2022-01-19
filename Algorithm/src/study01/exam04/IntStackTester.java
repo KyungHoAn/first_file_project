@@ -31,8 +31,7 @@ public class IntStackTester {
 				}catch(IntStack.EmptyIntStackException e) {
 					System.out.println("stack is empty");
 				}
-				break;
-				
+				break;				
 			case 3:
 				try {
 					x=s.peek();

@@ -40,7 +40,6 @@ public class IntStack {
 			throw new EmptyIntStackException();
 		return stk[--ptr];
 	}
-
 	// 피크 메서드peek (스택의 꼭대기에 있는 데이터를 "몰래 엿보는" 메서드"
 	// 스택이 비어있는 경우 예외EmptyIntStackException을 던진다
 	// 스택에서 데이터를 피크(정상에 있는 데이터를 들여다봄)
