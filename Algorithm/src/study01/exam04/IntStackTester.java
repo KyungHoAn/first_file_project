@@ -22,7 +22,7 @@ public class IntStackTester {
 				}catch(IntStack.OverflowIntStackException e){
 					System.out.println("stack is full");
 				}
-				break;			
+				break;		
 				
 			case 2:
 				try {
