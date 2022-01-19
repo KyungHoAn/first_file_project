@@ -26,6 +26,7 @@ public class IntStack {
 			max = 0;
 		}
 	}
+	
 	// 스택에 x를 푸쉬
 	public int push(int x) throws OverflowIntStackException {
 		if (ptr >= max)
