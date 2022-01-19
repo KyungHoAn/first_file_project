@@ -3,8 +3,7 @@ package study01.exam04;
 public class IntStack {
 	private int max; // stack 용량
 	private int ptr; // stack 포인터
-	private int[] stk; // stack 본체ㅐ
-
+	private int[] stk; // stack 본체
 	// 실행 시 예외: 스택이 비어 있음
 	public class EmptyIntStackException extends RuntimeException {
 		public EmptyIntStackException() {
