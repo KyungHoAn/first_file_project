@@ -48,6 +48,7 @@ public class IntStack {
 			throw new EmptyIntStackException();
 		return stk[ptr - 1]; // 스택이 비어있지 않다면 꼭대기 요소 ptr-1를 반환
 	}
+	
 	// 스택에서 x를 찾아 인덱스(없으면-1)를 반환
 	public int indexOf(int x) {
 		for (int i = ptr - 1; i >= 0; i--) // 정상쪽에서 선형 검색
