@@ -10,7 +10,6 @@ import java.util.Scanner;
 
 public class Factorial
 {
-
     public Factorial()
     {
     }
