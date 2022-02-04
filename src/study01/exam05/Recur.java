@@ -1,7 +1,9 @@
 package study01.exam05;
 import java.util.Scanner;
+// 재귀 함수 이해하기
 
 public class Recur {
+	// 재귀함수
 	static void recur(int n) {
 		if(n>0) {
 			recur(n-1);
