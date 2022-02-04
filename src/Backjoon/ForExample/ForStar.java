@@ -1,4 +1,4 @@
-package Backjoon;
+package Backjoon.ForExample;
 
 import java.util.Scanner;
 
